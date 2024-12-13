@@ -1,4 +1,4 @@
-### **Title: Variables, Data Types, and Operators in C++** 🚀  
+### **Variables, Data Types, and Operators in C++** 🚀  
 
 #### **How to Run Code in C++**  
 1️⃣ **Case Sensitivity:**  
