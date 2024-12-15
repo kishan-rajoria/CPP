@@ -161,4 +161,8 @@ A flowchart is a visual representation of the steps in a process or algorithm. I
 ### **✨ Key Takeaways**  
 - **Setting up C++ in VS Code** ensures you have a streamlined development environment.  
 - **Pseudocode** helps break down problems logically and is easy to translate into code.  
+<<<<<<< HEAD
 - **Flowcharts** visually represent your logic and are excellent for troubleshooting and communication.😊   
+=======
+- **Flowcharts** visually represent your logic and are excellent for troubleshooting and communication.😊
+>>>>>>> e11fb882af6ccf42f37a5baab32bbc5f03cc973d
