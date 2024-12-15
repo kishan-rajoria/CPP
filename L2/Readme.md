@@ -1,4 +1,4 @@
-### **Conditional Statements, Loops, and More in C++** 🚀  
+### **Conditional Statements, Loops in C++** 🚀  
 
 ---
 
