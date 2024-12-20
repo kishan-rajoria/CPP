@@ -305,5 +305,8 @@ cout << (float)a / b;  // Outputs: 2.5
 
 ### **Outputs**
 
-![alt text](image.png)
-![alt text](image-1.png)
+<table>
+  <tr>
+    <td><img src="image.png" alt="Image 1" width="200"></td>
+    <td><img src="image-1.png" alt="Image 2" width="200"></td>
+  </tr>
