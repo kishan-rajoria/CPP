@@ -232,22 +232,33 @@ Try writing a nested loop to generate the desired patterns using ASCII values.
 
 ### **Outputs**
 
-![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image-2.png)
-![alt text](image-3.png)
-![alt text](image-4.png)
-![alt text](image-5.png)
-![alt text](image-8.png)
-![alt text](image-7.png)
-![alt text](image-6.png)
-![alt text](image-9.png)
-![alt text](image-10.png)
-![alt text](image-11.png)
-![alt text](image-12.png)
-![alt text](image-13.png)
-![alt text](image-14.png)
-![alt text](image-15.png)
+<table>
+  <tr>
+    <td><img src="image.png" alt="Image 1" width="200"></td>
+    <td><img src="image-1.png" alt="Image 2" width="200"></td>
+    <td><img src="image-2.png" alt="Image 3" width="200"></td>
+    <td><img src="image-3.png" alt="Image 4" width="200"></td>
+  </tr>
+  <tr>
+    <td><img src="image-4.png" alt="Image 5" width="200"></td>
+    <td><img src="image-5.png" alt="Image 6" width="200"></td>
+    <td><img src="image-8.png" alt="Image 7" width="200"></td>
+    <td><img src="image-7.png" alt="Image 8" width="200"></td>
+  </tr>
+  <tr>
+    <td><img src="image-6.png" alt="Image 9" width="200"></td>
+    <td><img src="image-9.png" alt="Image 10" width="200"></td>
+    <td><img src="image-10.png" alt="Image 11" width="200"></td>
+    <td><img src="image-11.png" alt="Image 12" width="200"></td>
+  </tr>
+  <tr>
+    <td><img src="image-12.png" alt="Image 13" width="200"></td>
+    <td><img src="image-13.png" alt="Image 14" width="200"></td>
+    <td><img src="image-14.png" alt="Image 15" width="200"></td>
+    <td><img src="image-15.png" alt="Image 16" width="200"></td>
+  </tr>
+</table>
+
 
 
 Happy Coding! 😊✨  
