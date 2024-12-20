@@ -42,7 +42,7 @@ using namespace std;
 //     return 0;
 // }
 
-// use else if to check overload of motor
+// // use else if to check overload of motor
 // int main() {
 //     int amp;
 //     cout<< "Enter running amp: ";

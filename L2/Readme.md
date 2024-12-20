@@ -234,4 +234,9 @@ cout << "Factorial: " << fact;  // Outputs: Factorial: 120
 - Avoid infinite loops and follow naming conventions for better readability.  
 - Practice writing small programs to master loops, conditional statements, and keywords like `break` and `continue`.  
 
+### **Outputs**
+
+![alt text](image.png)
+![alt text](image-1.png)
+
 Happy Coding! 😊✨  

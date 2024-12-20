@@ -2,7 +2,7 @@
 using namespace std;
 
 //comment
-// the below code has to be written
+//the below code has to be written
 
 // int main() {
 //     cout <<"Hello boys\ngirls";
@@ -28,7 +28,7 @@ using namespace std;
 //     return 0;
 // }
 
-// // type conversion
+// type conversion
 // int main() {
 //     char amp = 'f';
 //     int value =amp; //here it store ASCII value of character f.
@@ -37,7 +37,7 @@ using namespace std;
 // }
 
 
-// // type conversion
+// type conversion
 // int main() {
 //     double g=9.8;
 
@@ -96,7 +96,7 @@ using namespace std;
 //     return 0;
 // }
 
-//Sum of two numbers:
+// //Sum of two numbers:
 // int main() {
 //     int a, b;
 //     cout << "enter a: ";
@@ -111,7 +111,7 @@ using namespace std;
 // }
 
 
-//unary operator
+// //unary operator
 
 // int main() {
 //     int a =10;

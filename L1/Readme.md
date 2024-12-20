@@ -302,3 +302,8 @@ Type casting is often used in division to get precise results:
 int a = 5, b = 2;  
 cout << (float)a / b;  // Outputs: 2.5  
 ```  
+
+### **Outputs**
+
+![alt text](image.png)
+![alt text](image-1.png)
