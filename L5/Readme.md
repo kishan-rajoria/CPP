@@ -136,6 +136,7 @@ Convert back from two’s complement binary to decimal for:
 - Two’s complement is crucial for representing negative numbers.  
 - Practice conversions to master binary systems and memory representation.  
 
+### **Output**
 
 <table>
   <tr>
