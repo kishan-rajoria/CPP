@@ -451,8 +451,8 @@ int main() {
 
 <table>
   <tr>
-    <td><img src="![alt text](image.png)" alt="Image 1" width="200"></td>
-    <td><img src="![alt text](image-1.png)" alt="Image 2" width="200"></td>
+    <td><img src="image.png" alt="Image 1" width="200"></td>
+    <td><img src="image-1.png" alt="Image 2" width="200"></td>
   </tr>
 
 
