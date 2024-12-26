@@ -148,7 +148,7 @@ int main() {
 
 **Problem Statement:**  
 Given a non-empty array of integers, every element appears twice except for one. Find that single number. 
- 
+
 **Leet_code_link**
 - https://leetcode.com/problems/single-number/
 
@@ -191,7 +191,7 @@ int singleNumber(vector<int>& nums) {
 ### **Key Takeaways**  
 - Vectors are dynamic and provide various built-in functions for easy manipulation.  
 - They combine the flexibility of dynamic memory with the efficiency of arrays.  
-- Practice using vectors to solve real-world problems efficiently.  
+- Practice using vectors to solve real-world problems.  
 
 ### **outputs**
 <table>
