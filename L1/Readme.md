@@ -232,7 +232,7 @@ Characters in C++ are stored as **ASCII values.** For example:
 You can use the `int` type to print the ASCII value of a character:  
 ```cpp  
 char ch = 'A';  
-cout << (int)ch;  // Outputs: 65  
+cout << (int)ch;  // Output: 65  
 ```  
 
 ---
