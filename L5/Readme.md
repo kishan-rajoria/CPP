@@ -134,7 +134,7 @@ Convert back from two’s complement binary to decimal for:
 ### **Key Takeaways**  
 - Binary is the base of all computing systems.  
 - Two’s complement is crucial for representing negative numbers.  
-- Practice conversions to master binary systems and memory representation.  
+- Practice conversions to master binary systems and memory representations.  
 
 ### **Output**
 
