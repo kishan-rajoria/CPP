@@ -147,7 +147,10 @@ int main() {
 ### **Problem: Single Number** (LeetCode)  
 
 **Problem Statement:**  
-Given a non-empty array of integers, every element appears twice except for one. Find that single number.  
+Given a non-empty array of integers, every element appears twice except for one. Find that single number. 
+ 
+**Leet_code_link**
+- https://leetcode.com/problems/single-number/
 
 **Example:**  
 Input: `[4,1,2,1,2]`  
