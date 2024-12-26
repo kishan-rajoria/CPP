@@ -230,7 +230,7 @@ cout << "Factorial: " << fact;  // Outputs: Factorial: 120
 ---
 
 ### **Key Takeaways**  
-- Use `if-else` and loops effectively to control the flow of your programs.  
+- Use `if-else` and loops effectively to control the flow of your program.  
 - Avoid infinite loops and follow naming conventions for better readability.  
 - Practice writing small programs to master loops, conditional statements, and keywords like `break` and `continue`.  
 
