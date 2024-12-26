@@ -118,7 +118,7 @@ A flowchart is a visual representation of the steps in a process or algorithm. I
 - **Arrow:** Shows the flow of steps.  
 
 ### **Why Use Flowcharts?**  
-- Provides a clear and visual way to understand algorithms.  
+- Provides clear and visual way to understand algorithms.  
 - Helps identify potential inefficiencies or errors.  
 - Aids in collaboration and communication.  
 
