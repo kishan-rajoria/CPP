@@ -445,7 +445,7 @@ int main() {
 ### **Key Takeaways**  
 - Use `switch` for multiple fixed-value conditions.  
 - Remember to add `break` to avoid unintended fall-through.  
-- Include a `default` case for unmatched conditions.  
+- Include a `default` case for unmatched condition.  
 
 ### **Outputs**
 
