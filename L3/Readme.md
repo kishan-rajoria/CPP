@@ -227,7 +227,7 @@ Try writing a nested loop to generate the desired patterns using ASCII values.
 ### **Key Takeaways**  
 - Use **nested loops** for pattern printing.  
 - Explore the power of **ASCII values** for character-based patterns.  
-- Understand how to control iterations with outer and inner loops.  
+- Understand how to control iterations with outer and inner loop.  
 
 
 ### **Outputs**
