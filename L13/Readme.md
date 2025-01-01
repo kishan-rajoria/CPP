@@ -305,6 +305,209 @@ Target found at index: 4
 2. Recursive binary search is elegant but consumes more memory due to the call stack.  
 3. Always handle overflow while calculating `mid` using \( \text{mid} = \text{st} + (\text{end} - \text{st}) / 2 \).  
 
-## outputs
+### **Binary Search in Rotated Sorted Array** 🚀  
 
+A rotated sorted array is an array that has been shifted from its sorted order at a pivot point. For example:  
+- Original: `[1, 2, 3, 4, 5, 6]`  
+- Rotated: `[4, 5, 6, 1, 2, 3]`.  
+
+The challenge is to apply **binary search** in this array efficiently.  
+
+---
+
+### **Key Idea**  
+1. Even though the array is rotated, at least one of the two halves (left or right) will always be sorted.  
+2. Use binary search to determine which half is sorted, then decide whether to search in the sorted or unsorted half.  
+
+---
+
+### **Algorithm**  
+1. Start with two pointers: `start` and `end`.  
+2. Calculate the middle index:  
+   \[
+   \text{mid} = \text{start} + (\text{end} - \text{start}) / 2
+   \]  
+3. Check if `arr[mid]` is the target:  
+   - If true, return the index.  
+4. Determine if the left half is sorted:  
+   - If `arr[start] <= arr[mid]`, the left half is sorted.  
+5. Check if the target lies within the sorted half:  
+   - If yes, narrow the search to the sorted half.  
+   - If no, search in the unsorted half.  
+6. Repeat until `start > end`.  
+
+---
+
+### **Example Execution**  
+
+#### **Input**:  
+`arr = [4, 5, 6, 7, 0, 1, 2]`, `target = 0`.  
+
+#### **Steps**:  
+1. `start = 0`, `end = 6`, `mid = 3` → `arr[mid] = 7`.  
+   - Left half `[4, 5, 6, 7]` is sorted.  
+   - Target is not in `[4, 5, 6, 7]`.  
+   - Narrow search to `[0, 1, 2]`.  
+
+2. `start = 4`, `end = 6`, `mid = 5` → `arr[mid] = 1`.  
+   - Right half `[1, 2]` is sorted.  
+   - Target is in `[0, 1, 2]`.  
+   - Narrow search to `[0]`.  
+
+3. `start = 4`, `end = 4`, `mid = 4` → `arr[mid] = 0`.  
+   - Target found at index `4`.  
+
+#### **Output**:  
+```
+Target found at index: 4
+```  
+
+---
+
+### **Time and Space Complexity**  
+
+1. **Time Complexity**:  
+   - Similar to standard binary search:  
+   \[
+   O(\log n)
+   \]  
+
+2. **Space Complexity**:  
+   - No additional memory used.  
+   \[
+   O(1)
+   \]  
+
+---
+
+### **Edge Cases**  
+
+1. **Target Not in Array**:  
+   - Input: `[4, 5, 6, 7, 0, 1, 2]`, Target = `3`.  
+   - Output: `-1`.  
+
+2. **Array with One Element**:  
+   - Input: `[1]`, Target = `1`.  
+   - Output: `0`.  
+
+3. **Array Without Rotation**:  
+   - Input: `[1, 2, 3, 4, 5]`, Target = `3`.  
+   - Output: `2`.  
+
+4. **Duplicates in Array**:  
+   - If duplicates exist, additional logic is needed to handle ambiguous cases.  
+
+---
+
+### **Key Takeaways**  
+
+1. Binary search in a rotated array relies on identifying the sorted half of the array.  
+2. Efficiently narrows down the search space with \( O(\log n) \) time complexity.  
+3. Always handle edge cases like single-element arrays and unrotated arrays. 
+
+### **Leetcode link** 
+https://leetcode.com/problems/search-in-rotated-sorted-array/
+
+
+### **Peak Index in Mountain Array** 🚀  
+
+A **mountain array** is defined as an array where elements strictly increase to a peak and then strictly decrease. The task is to find the **peak index** in the mountain array.
+
+---
+
+### **Example**  
+**Input**:  
+`arr = [1, 3, 5, 4, 2]`  
+**Output**:  
+`2` (Peak element is `5` at index `2`).  
+
+---
+
+### **Approach: Binary Search for Peak Index**  
+
+#### **Key Observations**  
+1. In a mountain array, the peak element is larger than its neighbors.  
+2. Use binary search to narrow down the search space based on the slope:  
+   - If `arr[mid] < arr[mid + 1]`, the peak lies to the right.  
+   - If `arr[mid] > arr[mid + 1]`, the peak lies to the left.  
+
+#### **Algorithm**  
+1. Initialize `start = 0` and `end = arr.size() - 1`.  
+2. Calculate `mid = start + (end - start) / 2`.  
+3. Compare `arr[mid]` and `arr[mid + 1]`:  
+   - If `arr[mid] < arr[mid + 1]`, move `start` to `mid + 1`.  
+   - Otherwise, move `end` to `mid`.  
+4. When `start == end`, the peak index is found.   
+
+---
+
+### **Explanation**  
+
+#### **Input**:  
+`arr = [1, 3, 5, 4, 2]`  
+
+#### **Execution Steps**  
+
+1. **Initial State**:  
+   - `start = 0`, `end = 4`.  
+
+2. **First Iteration**:  
+   - `mid = 2`.  
+   - `arr[mid] = 5`, `arr[mid + 1] = 4`.  
+   - Since `arr[mid] > arr[mid + 1]`, move `end = mid`.  
+
+3. **Second Iteration**:  
+   - `start = 0`, `end = 2`, `mid = 1`.  
+   - `arr[mid] = 3`, `arr[mid + 1] = 5`.  
+   - Since `arr[mid] < arr[mid + 1]`, move `start = mid + 1`.  
+
+4. **Final State**:  
+   - `start = 2`, `end = 2`.  
+   - Peak index is `2`.  
+
+---
+
+### **Complexity Analysis**  
+
+1. **Time Complexity**:  
+   - Binary search reduces the search space logarithmically.  
+   \[
+   O(\log n)
+   \]  
+
+2. **Space Complexity**:  
+   - No additional memory is used.  
+   \[
+   O(1)
+   \]  
+
+---
+
+### **Edge Cases**  
+
+1. **Short Mountain Array**:  
+   - Input: `[0, 1, 0]`.  
+   - Output: `1`.  
+
+2. **All Elements Increasing Before Decreasing**:  
+   - Input: `[1, 2, 3, 4, 5, 4, 3, 2, 1]`.  
+   - Output: `4`.  
+
+3. **Larger Arrays**:  
+   - Input: `[1, 2, 3, ..., 1000, 999, ..., 1]`.  
+   - Output: Index of `1000`.  
+
+---
+
+### **Key Takeaways**  
+
+1. Binary search is an efficient way to find the peak in a mountain array with \( O(\log n) \) time complexity.  
+2. Always consider edge cases like short arrays or larger inputs for robust solutions.  
+3. The algorithm works only for valid mountain arrays with a single peak.  
+
+### **Leetcode link** 
+https://leetcode.com/problems/peak-index-in-a-mountain-array/
+
+## outputs
+ 
 ![alt text](image.png)

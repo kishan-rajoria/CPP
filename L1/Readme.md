@@ -12,6 +12,7 @@ Every statement in C++ must end with a semicolon `;`. It acts as a terminator to
 
 4️⃣ **Minimal Code to Print Output:**  
 At minimum, you need 6 lines of code to print anything in C++.  
+![alt text](image-8.png)
 ```cpp  
 #include <iostream>  
 using namespace std;  
@@ -101,11 +102,17 @@ int main() {
 
 ### **Data Types in C++**  
 C++ offers **primitive data types** for variable declarations:  
-- `int` (4 bytes) – Whole numbers.  
-- `char` (1 byte) – Single characters.  
-- `float` (4 bytes) – Decimal numbers.  
-- `double` (8 bytes) – Large decimal numbers.  
-- `bool` (1 byte) – Boolean values (`true`/`false`).  
+![alt text](image-4.png)
+- `int` (4 bytes) – Whole numbers.
+  ![alt text](image-9.png)
+- `char` (1 byte) – Single characters. 
+![alt text](image-10.png) 
+- `float` (4 bytes) – Decimal numbers. 
+![alt text](image-2.png)
+- `double` (8 bytes) – Large decimal numbers. 
+![alt text](image-11.png)
+- `bool` (1 byte) – Boolean values (`true`/`false`). 
+![alt text](image-12.png)
 
 **Note:**  
 1. 1 byte = 8 bits.  

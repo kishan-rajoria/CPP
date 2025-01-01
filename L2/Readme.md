@@ -86,6 +86,7 @@ Loops are used to perform repeated tasks efficiently.
 1. Initialization.  
 2. Condition (checked before each iteration).  
 3. Update (executed after each iteration).  
+![alt text](image-5.png)
 
 **Syntax:**  
 ```cpp  
@@ -105,6 +106,7 @@ for (int i = 1; i <= 5; i++) {
 
 #### **2️⃣ While Loop**  
 🔹 Executes code as long as the condition is **true**.  
+![alt text](image-7.png)
 
 **Syntax:**  
 ```cpp  
@@ -126,6 +128,7 @@ while (i <= 5) {
 
 #### **3️⃣ Do-While Loop**  
 🔹 Similar to `while`, but ensures the code executes at least once.  
+![alt text](image-6.png)
 - The condition is checked **after** execution.  
 
 **Syntax:**  
